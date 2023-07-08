@@ -25,6 +25,6 @@ public class UserController {
 
     @PostMapping
     public ResponseEntity<?> findAll(@RequestBody User user) {
-        return ResponseEntity.ok(userService.insert(user));
+        return ResponseEntity.ok(null);
     }
 }
